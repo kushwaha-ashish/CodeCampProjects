@@ -37,7 +37,7 @@ fieldset {
 }
 
 input:invalid {
-  border: 3px solid red;
+  border: 1px solid red;
 }
 
 button {
