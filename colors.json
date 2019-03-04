@@ -11,7 +11,7 @@
     },
     {
       "color": "white",
-      "category": "value",
+      "category": "hue",
       "type": "primary",
       "code": {
         "rgba": [0,0,0,1],
