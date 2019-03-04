@@ -12,6 +12,7 @@
     {
       "color": "white",
       "category": "value",
+      "type": "primary",
       "code": {
         "rgba": [0,0,0,1],
         "hex": "#FFF"
