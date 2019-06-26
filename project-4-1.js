@@ -21,8 +21,6 @@ req.onreadystatechange = function() {
 
 req.send();
 
-//var obj = d3.json('project-4-1.json');
-
 var num_arr = obj.data;
 
 const paddingX = 55;
