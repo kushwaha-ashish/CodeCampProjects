@@ -8,20 +8,18 @@ let tooltip = d3
       .attr("id", "tooltip")
       .style("opacity", 0);
 
-// req = new XMLHttpRequest();
-// req.open("GET",'https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json', false);
-// req.setRequestHeader('Content-Type','text/plain');
+req = new XMLHttpRequest();
+req.open("GET",'https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json', false);
+req.setRequestHeader('Content-Type','text/plain');
 
-// var obj;
-// req.onreadystatechange = function() {
-//     if((req.readyState == 4) && (req.status==200)) {
-//         obj = JSON.parse(req.responseText);
-//     }
-// }
+var obj;
+req.onreadystatechange = function() {
+    if((req.readyState == 4) && (req.status==200)) {
+        obj = JSON.parse(req.responseText);
+    }
+}
 
-// req.send();
-
-var obj = d3.json('project-4-1.json');
+req.send();
 
 var num_arr = obj.data;
 
