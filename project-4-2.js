@@ -17,8 +17,7 @@ const h = 500;
 const paddingx = 50;
 const paddingy = 25;
 
-let tooltip = d3
-      .select("body")
+let tooltip = d3.select("body")
       .append("div")
       .attr("class", "tooltip")
       .attr("id", "tooltip")
